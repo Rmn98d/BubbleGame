@@ -1,0 +1,56 @@
+.bubleGameOuterSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0px;
+}
+
+.innerSection{
+    background-color: rgb(48, 72, 48)   ;
+    width: 90%;
+    height: 80vh;}
+
+.bubbleTop{
+    background-color: rgb(25, 42, 20);
+    width: 100%;
+    height:calc(80vh - 70vh);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;   
+    font-size:20px;
+}    
+.bubbleTop span{
+     background-color: white;
+     color: rgb(8, 35, 8);
+     padding: 8px 13px;
+     border-radius: 3px;
+     margin-left:20px;
+}  
+.bubbleBottom{
+    background-color: rgb(165, 194, 167);
+    width:100%;
+    height: calc(80vh - 10vh);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    overflow: hidden;
+
+}
+.elem{
+    background-color: rgb(23, 53, 27)(119, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubbles{
+    background-color: aliceblue;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
